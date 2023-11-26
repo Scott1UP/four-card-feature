@@ -16,7 +16,7 @@ figure, blockquote, dl, dd {
 body {
     font-family: 'Poppins';
     font-size: 15px;
-    margin: 2rem;
+    margin: 5rem 2rem;
 }
 
 h2 {
@@ -48,6 +48,10 @@ p {
     padding-bottom: 4.5rem;
 }
 
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
 
 .card {
     display: flex;
@@ -69,4 +73,16 @@ p {
 
 .supervisor {
     border-color: var(--superv);
+}
+
+.team-build {
+    border-color: var(--team);
+}
+
+.karma {
+    border-color: var(--karma);
+}
+
+.calc {
+    border-color: var(--calc);
 }
