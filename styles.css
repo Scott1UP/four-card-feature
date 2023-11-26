@@ -48,11 +48,6 @@ p {
     padding-bottom: 4.5rem;
 }
 
-.grid {
-    display: grid;
-    gap: 1.5rem;
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -73,16 +68,53 @@ p {
 
 .supervisor {
     border-color: var(--superv);
+    height: fit-content;
 }
 
 .team-build {
     border-color: var(--team);
+    height: fit-content;
 }
 
 .karma {
     border-color: var(--karma);
+    height: fit-content;
 }
 
 .calc {
     border-color: var(--calc);
+    height: fit-content;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+        min-height: 100svh;
+    }
+    
+    .text {
+        max-width: 512px;
+
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    
+    .grid {
+        display: flex;
+        align-items: center;
+        max-width: 1112px;
+        gap: 1.5rem;
+    }
+    
+    .middle {
+        display: flex;
+        flex-direction: column;
+        gap: inherit;
+    }
 }
