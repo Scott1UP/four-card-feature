@@ -48,6 +48,18 @@ p {
     padding-bottom: 4.5rem;
 }
 
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.middle {
+    display: inherit;
+    flex-direction: inherit;
+    gap: inherit;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -109,12 +121,5 @@ p {
         display: flex;
         align-items: center;
         max-width: 1112px;
-        gap: 1.5rem;
-    }
-    
-    .middle {
-        display: flex;
-        flex-direction: column;
-        gap: inherit;
     }
 }
