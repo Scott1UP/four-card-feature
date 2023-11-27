@@ -17,6 +17,7 @@ body {
     font-family: 'Poppins';
     font-size: 15px;
     margin: 5rem 2rem;
+    background-color: var(--neu-lt-gray);
 }
 
 h2 {
@@ -109,6 +110,7 @@ p {
 
     h2 {
         font-size: 36px;
+        line-height: 1.4;
     }
     
     .text {
@@ -136,6 +138,7 @@ p {
 
     .middle {
         flex-direction: column;
+        gap: 2rem;
         width: 100%;
         align-items: inherit;
     }
